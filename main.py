@@ -1,12 +1,12 @@
-import pyttsx3
+import pyttsx3 #text-to-speech
 import datetime
 import speech_recognition as sr
 import wikipedia
 import webbrowser
-import os
-import smtplib
-import random
-import cv2
+import os #system files
+import smtplib #send mail
+import random #random nos.
+import cv2 #openCV
 
 engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
